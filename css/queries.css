@@ -1,0 +1,111 @@
+/*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
+@media only screen and (max-width:1200px) {
+    .row {
+        width: 100%;
+    }
+}
+
+/*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
+@media only screen and (max-width:1023px) {
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    nav ul li {
+        margin-left: 35px;
+    }
+
+    .Image_btn4 {
+        font-size: 15px;
+    }
+}
+
+/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
+@media only screen and (max-width:767px) {
+    .main-nav {
+        display: none
+    }
+
+    .mobile-nav-icon {
+        display: inline-block
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+    }
+
+    /*.navbar ul li {
+        display: block
+    }
+*/
+    nav ul li {
+        margin-left: 25px;
+        display: block
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    text {
+        font-size: 20px;
+
+    }
+
+    p {
+        padding: 10px 10px 20px 0px;
+
+    }
+
+    .footer-contact i,
+  .footer-list nav1 ul li  {
+        font-size: 10px;
+    }
+.foorter-social i {
+    font-size: 10px;
+    padding: 5px
+}
+}
+/*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
+@media only screen and (max-width:480px) {
+    .heading_box{
+ width: 100%;  
+        text-align: center
+}
+.map_box{
+    width: 100%;   
+}
+    .googlemap{
+     margin-top: 30px;
+    height:300px;
+     width: 100%;  
+}
+    .logo2 {
+    width: 10%;
+ 
+}
+    footer{
+    }
+    
+}
